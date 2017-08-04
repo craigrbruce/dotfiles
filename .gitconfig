@@ -1,6 +1,6 @@
 [user]
-    name = Gary Bernhardt
-    email = gary.bernhardt@gmail.com
+    name = Craig Bruce
+    email = craig@craig-bruce.com
 [diff]
 [color]
     ui = auto
@@ -20,6 +20,7 @@
     b = branch
     ds = diff --stat=160,120
     dh1 = diff HEAD~1
+    c = commit -am
 
     # Divergence (commits we added and commits remote added)
     div = divergence
