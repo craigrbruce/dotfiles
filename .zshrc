@@ -51,13 +51,7 @@ function lack() {
 }
 function mcd() { mkdir -p $1 && cd $1 }
 function cdf() { cd *$1*/ } # stolen from @topfunky
-function das() {
-    cd ~/proj/das
-    pwd
-    . ~/Documents/filing/business/destroy\ all\ software\ llc/s3.sh
-    . ~/Documents/filing/business/destroy\ all\ software\ llc/braintree.sh
-    . ~/Documents/filing/business/destroy\ all\ software\ llc/cloudfront.sh
-}
+
 function m() {
     if [[ "$1" == "das" ]]; then
         mutt -F ~/.mutt/das.muttrc
